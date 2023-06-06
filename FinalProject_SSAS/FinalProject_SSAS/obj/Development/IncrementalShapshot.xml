@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>FinalProject_SSAS</Database>
+    <Server>MEO</Server>
+    <ConnectionString>Data Source=MEO;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>RpPnb+keH+a39PGVeKNH603x0lA=5/8/2023 2:19:27 PM5/8/2023 1:58:32 PM</TimeStamp>
+        <ID>
+          <String>DB DWH Final Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>6AhBo6aqS0b2iFU+SPGDPwZfaDY=5/8/2023 7:51:20 PM5/8/2023 1:59:31 PM</TimeStamp>
+        <ID>
+          <String>View_DB DWH Final Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VUZ0UctDGM0mkKTEduBy6YRObco=5/8/2023 2:28:06 PM5/8/2023 2:00:24 PM</TimeStamp>
+        <ID>
+          <String>Dim Confirmed Deaths</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FwFhfhQX0pC49eEkky+QTYUkQ+s=5/8/2023 7:51:20 PM5/8/2023 2:00:24 PM</TimeStamp>
+        <ID>
+          <String>Dim Population</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vlHoR6JdAkEpQN611mWnuKt4GEg=5/8/2023 2:28:06 PM5/8/2023 2:00:24 PM</TimeStamp>
+        <ID>
+          <String>Dim Confirmed Cases</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kzhreBTlyf0IAyfSR1eN2h8WEBM=5/8/2023 2:28:06 PM5/8/2023 2:00:24 PM</TimeStamp>
+        <ID>
+          <String>Dim Tests</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PrOpDtSVk/YfKlG9lCksiqW+bIY=5/8/2023 11:21:21 PM5/8/2023 2:00:24 PMTkaa62A0Xr7jsRe23OhKPnzbcwM=5/8/2023 2:00:24 PM5/8/2023 2:00:24 PM</TimeStamp>
+        <ID>
+          <String>Cube_DB DWH Final Project</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>LnKBgK17l+l7jBP+HP67RTSdzcU=5/8/2023 1:57:10 PM5/8/2023 1:57:09 PM</TimeStamp>
+      <ID>
+        <String>FinalProject_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-09T06:18:02.526667Z</LastDeployed>
+</DeploymentSnapshot>
